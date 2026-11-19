@@ -1,0 +1,1 @@
+<script setup>defineProps({message:String,type:{type:String,default:'success'}})</script><template><p v-if="message" class="notice" :class="type" role="status">{{message}}</p></template>
